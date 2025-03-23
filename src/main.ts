@@ -67,7 +67,7 @@ function renderTodos(): void {
     iconContainer.classList.add('icon-container');
 
     const pencilIcon = document.createElement('img');
-    pencilIcon.src = 'src/pencil.svg'; 
+    pencilIcon.src = 'pencil.svg'; 
     pencilIcon.alt = 'Ändra';
     
     pencilIcon.addEventListener('click', () => {
@@ -82,7 +82,7 @@ function renderTodos(): void {
     iconContainer.appendChild(pencilIcon);
 
     const trashIcon = document.createElement('img');
-    trashIcon.src = 'src/trash.svg'; 
+    trashIcon.src = 'trash.svg'; 
     trashIcon.alt = 'Ta bort';
     
     trashIcon.addEventListener('click', () => {
